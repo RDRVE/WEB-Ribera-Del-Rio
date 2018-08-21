@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+	.vc_row.col-equal > .wpb_column > .wpb_wrapper { 
+		overflow: hidden;
+	}
+}
