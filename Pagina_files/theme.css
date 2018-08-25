@@ -63,22 +63,42 @@ button {
     width: 20%;
     float: left;
 }
+.logo {
+        float: left;
+        text-align: center;
+    }
 @media (min-width: 768px) {
 .col-sm-5th {
         width: 20%;
         float: left;
     }
+    .logo {
+        float: none;
+        text-align: center;
+    }
+
+
 }
 @media (min-width: 992px) {
     .col-md-5th {
         width: 20%;
         float: left;
     }
+    .logo {
+        float: left;
+        text-align: center;
+    }
+
+
 }
 @media (min-width: 1200px) {
     .col-lg-5th {
         width: 20%;
         float: left;
+    }
+    .logo {
+        float: left;
+        text-align: center;
     }
 }
 /***************************************************************
@@ -231,28 +251,7 @@ input[type=datetime-local], input[type=month],
 input[type=email], input[type=number] {
 	width: 100%;
 }
-button, input, optgroup, select,
-textarea , .form-control,
-.form-control:focus {
-	border-radius: 0 0 0 0;
-    background-image: none;
-    border: 1px solid #e3e3e3 ;
-    background-color: #fcfcfc;
-    outline: none;
-    display: block;
-    -webkit-box-sizing:	border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing:	border-box;
-	-o-box-sizing: border-box;
-	box-sizing:	border-box;
-    padding: 6px 12px;
-    line-height: 1.42857143;
-    -webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	-ms-box-shadow:	none;
-	-o-box-shadow: none;
-	box-shadow:	none;
-}
+ 
 input, optgroup, select, textarea,
 .form-control, .form-control:focus {
 }
@@ -729,10 +728,10 @@ p.social-networks {
 	font-size: 30px;
 }
 .logo img, .logo h1 {
-    margin: 35px 0px;
+    margin: 15px 0px;
 }
 .logo {
-	float: left;
+	
 }
 .logo h1 {
 	line-height: 1;
@@ -1501,7 +1500,7 @@ a#searchbutton:before {
 #header8 .fixed-header .logo a img,
 .header .fixed-header .logo a h1 {
     margin: 16px 0px;
-    float: left;
+    
 }
 #header1 .fixed-header .search a#searchbutton,
 #header2 .fixed-header .search a#searchbutton,
